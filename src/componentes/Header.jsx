@@ -4,7 +4,7 @@ import { Badge, Divider } from '@material-ui/core';
 import Dropdown from './Dropdown';
 import {Link} from 'react-router-dom';
 import { useState } from 'react';
-import Data from '../data'
+
 
 
 const Header = () => {
@@ -20,7 +20,9 @@ const Header = () => {
                 <FormatAlignLeft className="hamburger" onClick={<Dropdown/>}>
                 <Link to='/menu'></Link>{dropdown && <Dropdown />}
                 </FormatAlignLeft>
+                <Link to="/">
                 <img src="./img/Logo_N1_Rush_fundo_escuro_bg_tranparente 1.png" alt="" className="header-logo"/>
+                    </Link>
             </div>
             <div className="header-direita">
                 <div className="header-contato">
@@ -32,9 +34,12 @@ const Header = () => {
                 </div>
                 <Divider/>
                 <div className="header-cart">
+                <Link to="/carrinho">
                 <LocalMall className="header-mall"/> 
-                    <Badge badgeContent={3} color="secondary" className="header-badge">
+                    <Badge badgeContent={2} color="secondary" className="header-badge">
                     </Badge> 
+                    </Link>
+                    
                 </div>
                 </div>
             </div>
