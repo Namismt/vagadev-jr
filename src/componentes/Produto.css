@@ -1,0 +1,63 @@
+
+.comprar {
+  padding: 10px;
+  width: 230px;
+  height: 52px;
+  margin-top: 110px;
+  margin-left: 50px;
+  font-size: 20px;
+  color:#FFFFFF;
+  background-color:#3EC6E0;
+  cursor: pointer;
+  border-radius:10px;
+  position: relative;
+  touch-action: manipulation;
+  content: "";
+
+}
+.comprar::after{
+  content:"Comprar";
+  position: absolute;
+  left: 73px;
+  top: 12px;
+
+}
+
+.comprar:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.comprar:hover {
+  background-color: #2dc0b4;
+  background-position: 0% 30%;
+}
+.comprar:focus {
+  box-shadow: rgba(28, 134, 126, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.comprar:active {
+  content: "";
+  background-color: #084154;
+  box-shadow: rgba(18, 66, 68, 0.2) 0 1px 0 inset;
+}
+.comprar:active::after{
+  left: 60px;
+  background-color: #084154;
+  content: "Comprado!";
+}
+.pedido-container{
+  border: none;
+  height: 500px;
+  width: 200px;
+  
+}
+.pedido-wrapper{
+  border: none;
+  justify-content: center;
+}
+.btn-sair{
+  cursor:pointer;
+  z-index: -1;
+}

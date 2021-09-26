@@ -1,0 +1,16 @@
+.dropdown-menu{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    height: 150px;
+    justify-content: space-between;
+    display: grid;
+    background-color: #084154;
+}
+.dropdown-menu li{
+    cursor: pointer;
+    color:#FFFFFF;
+}
+.dropdown-menu li:hover{
+    background-color: #3EC6E0;
+}

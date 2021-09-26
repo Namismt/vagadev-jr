@@ -1,0 +1,80 @@
+.header-container{ 
+    height: 35px;
+    position: relative;
+    background-color: black;
+    
+}
+.header-wrapper{
+    display: flex;
+    padding: 40px 70px;
+    justify-content:space-between;
+    background-color: black;
+}
+.header-esquerda{
+    flex: 2;  
+    display: flex;
+    align-items:flex-start;
+    margin-right: 25px;
+    
+}
+.header-logo{
+    margin-top: 5px;
+    display: flex;
+
+}
+.hamburger{
+    font-size: 35px!important;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 25px;
+    color:#FFFFFF;
+}
+.header-direita{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+  
+}
+.header-email{
+    color:#FFFFFF;
+}
+.header-contato{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    color:#FFFFFF;
+    margin-right: 3px;
+    cursor:pointer;
+}
+.header-search{
+    color: #FFFFFF;
+}
+.header-buscar{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.header-buscar-input{
+    background-color: #FFFFFF;
+    border-radius: 2px;
+}
+.header-mall{
+    color: #FFFFFF;
+    font-size: 30px!important;
+    cursor: pointer;
+}
+.header-cart{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.header-badge{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.link-contato{
+    color:#FFFFFF;
+    text-decoration: none;
+}
